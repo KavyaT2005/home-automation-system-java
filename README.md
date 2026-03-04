@@ -23,19 +23,21 @@ All actions such as device toggling and scheduling are recorded for reference.
 User Authentication
 Supports basic login functionality with predefined user roles.
 
-Tech Stack
-
+Tech Stack:-
 Language:Java
 Concepts Used:Object-Oriented Programming (OOP), 
 File Handling
 Interface:Command Line Interface (CLI)
 
 
-Default Login Credentials
+Default Login Credentials:-
+Admin Account
+Username: admin
+Password: admin123
 
-| Role  | Username | Password |
-| Admin | admin    | admin123 |
-| User  | user1    | password |
+User Account:-
+Username: user1
+Password: password
 
 Example Commands
 Toggle a Device
