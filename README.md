@@ -1,74 +1,35 @@
-# HomeAutomationSystem-java
-The Home Automation System is a Java-based application that simulates a smart home setup. It allows users to manage and control various devices in their home through a terminal-based interface. The system provides functionalities like controlling devices (e.g., lights, thermostat), and logging all activities for future reference.
-Features
-Device Control: Turn on/off devices (lights, fans, thermostat).
-Device Groups: Group devices by room or category for easy management.
-Scheduling: Schedule devices to activate at specific times.
-Sensor Monitoring: Monitor motion and light levels through simulated sensors.
-Logging: Keep track of all activities in the system (e.g., device toggles, schedules).
-Brightness Control: Adjust the brightness of lights and track history.
-Access Control: Manage users with different roles (admin, user).
-Setup
-Prerequisites
-Java 8 or later.
-A terminal/command prompt to run the application.
-Running the Application
-Clone the repository or copy the source code to your local machine.
-Open a terminal and navigate to the directory containing the code.
-Compile the Java files:
-Copy code
-javac HomeAutomationApp.java
-Run the application:
-Copy code
-java HomeAutomationApp
-Usage
-Login: Use the provided admin and user credentials to log in.
+Home Automation System (Java)
 
-Username: admin, Password: admin123
-Username: user1, Password: password
-Device Management: Once logged in, you can view devices, toggle them, or control device groups.
+Developed by:
+Kavya T
 
-To toggle a device, enter its name (e.g., lights, fans).
-You can also toggle all devices in a specific group (e.g., "Living Room").
-Scheduling Devices: Schedule devices to activate at specific times by entering a device name and time.
+Overview
+The Home Automation System is a Java-based application designed to simulate a smart home environment. The program enables users to control and monitor various household devices through a terminal-based interface. It provides essential functionalities such as device management, scheduling, sensor monitoring, and activity logging. The system aims to demonstrate the practical application of Java programming concepts while providing an efficient and user-friendly experience for managing smart home devices.
 
-Sensor Monitoring: Simulate sensor updates like motion detection, temperature, and humidity levels.
+Key Features
+User Authentication
+Allows users to securely log in using predefined usernames and passwords. The system verifies credentials before granting access to device controls and system features.
 
-Log Management: View logs to track all system activities.
+Device Control
+Enables users to switch devices such as lights, fans, and thermostats on or off. This functionality allows centralized control of multiple smart devices.
 
-Example Commands
-Login:
+Device Grouping
+Devices can be grouped based on rooms or categories, allowing users to control multiple devices simultaneously for better convenience.
 
-makefile
-Copy code
-Username: admin
-Password: admin123
-Control Devices:
+Scheduling
+Users can schedule devices to operate at specific times. This feature allows automated device control based on user-defined schedules.
 
-vbnet
-Copy code
-Enter device name to toggle: lights
-lights is now On
-Schedule a Device:
+Sensor Monitoring
+Simulated sensors provide information such as motion detection and light levels, helping to replicate a real smart home environment.
 
-mathematica
-Copy code
-Enter device name to schedule: lights
-Enter time to schedule (e.g., 12:00 PM): 07:00 PM
-Adjust Light Brightness:
+Brightness Control
+Users can adjust the brightness levels of lighting devices and track brightness changes over time.
 
-mathematica
-Copy code
-Enter device name to adjust brightness: lights
-Enter brightness percentage: 75
-Display Logs:
+Activity Logging
+The system records all user actions and device operations, allowing users to view system activity logs for monitoring and troubleshooting.
 
-yaml
-Copy code
-Display Logs:
-2024-12-21 14:00:00 - Toggled lights
-Contribution
-Feel free to fork this repository and make improvements. Contributions are welcome for adding more devices, advanced scheduling, or even an actual GUI.
+Data Handling
+The application efficiently manages device states and user actions using structured data storage within the program.
 
-License
-This project is open-source and available under the MIT License. See the LICENSE file for more information.
+Conclusion
+The Home Automation System demonstrates the practical implementation of Java programming concepts for simulating a smart home environment. It provides essential automation features such as device control, scheduling, and monitoring while maintaining a simple command-line interface. Future improvements may include adding a graphical user interface (GUI), integrating IoT devices, and enabling remote access through web or mobile applications.
