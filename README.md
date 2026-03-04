@@ -1,35 +1,68 @@
 Home Automation System (Java)
 
-Developed by:
-Kavya T
-
-Overview
-The Home Automation System is a Java-based application designed to simulate a smart home environment. The program enables users to control and monitor various household devices through a terminal-based interface. It provides essential functionalities such as device management, scheduling, sensor monitoring, and activity logging. The system aims to demonstrate the practical application of Java programming concepts while providing an efficient and user-friendly experience for managing smart home devices.
-
-Key Features
-User Authentication
-Allows users to securely log in using predefined usernames and passwords. The system verifies credentials before granting access to device controls and system features.
+The Home Automation System is a Java-based application that simulates a smart home environment. The system allows users to control and monitor household devices such as lights, fans, and thermostats through a command-line interface. It demonstrates core Java programming concepts while providing basic automation features such as scheduling, sensor monitoring, and activity logging.
 
 Device Control
-Enables users to switch devices such as lights, fans, and thermostats on or off. This functionality allows centralized control of multiple smart devices.
+Turn devices such as lights, fans, and thermostats ON or OFF through simple commands.
 
 Device Grouping
-Devices can be grouped based on rooms or categories, allowing users to control multiple devices simultaneously for better convenience.
+Organize devices by rooms or categories for easier management.
 
 Scheduling
-Users can schedule devices to operate at specific times. This feature allows automated device control based on user-defined schedules.
+Schedule devices to operate automatically at specific times.
 
 Sensor Monitoring
-Simulated sensors provide information such as motion detection and light levels, helping to replicate a real smart home environment.
+Simulated sensors allow monitoring of motion and light levels.
 
 Brightness Control
-Users can adjust the brightness levels of lighting devices and track brightness changes over time.
+Adjust the brightness level of lights and track brightness history.
 
 Activity Logging
-The system records all user actions and device operations, allowing users to view system activity logs for monitoring and troubleshooting.
+All actions such as device toggling and scheduling are recorded for reference.
 
-Data Handling
-The application efficiently manages device states and user actions using structured data storage within the program.
+User Authentication
+Supports basic login functionality with predefined user roles.
 
-Conclusion
-The Home Automation System demonstrates the practical implementation of Java programming concepts for simulating a smart home environment. It provides essential automation features such as device control, scheduling, and monitoring while maintaining a simple command-line interface. Future improvements may include adding a graphical user interface (GUI), integrating IoT devices, and enabling remote access through web or mobile applications.
+Tech Stack
+
+Language:Java
+Concepts Used:Object-Oriented Programming (OOP), 
+File Handling
+Interface:Command Line Interface (CLI)
+
+
+Default Login Credentials
+
+| Role  | Username | Password |
+| Admin | admin    | admin123 |
+| User  | user1    | password |
+
+Example Commands
+Toggle a Device
+Enter device name to toggle: lights
+lights is now ON
+
+Enter device name to schedule: lights
+Enter time: 07:00 PM
+
+Enter device name: lights
+Enter brightness level: 75%
+
+Display Logs
+2024-12-21 14:00:00 - Toggled lights
+
+ Possible Improvements
+
+Future enhancements could include:
+
+GUI interface using JavaFX or Swing
+Mobile app integration
+IoT device connectivity
+REST APIs for remote control
+Real-time sensor integration
+
+Author
+
+Kavya T
+
+This project is open for educational and learning purposes.
